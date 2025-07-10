@@ -15,7 +15,7 @@ def extract_text_from_docx(file):
     return "\n".join([para.text for para in doc.paragraphs])
 
 def extract_summary_from_excel(file):
-    df = pd.read_excel(file)
+    df = pd.read_excel(file, engine='openpyxl')
     return df.head(5).to_string(index=False)
 
 def generate_word_reply(notice_text, data_analysis, prev_format_text):
