@@ -1,0 +1,7 @@
+streamlit
+python-docx
+PyPDF2
+pandas
+fpdf
+openpyxl==3.1.2
+xlrd
