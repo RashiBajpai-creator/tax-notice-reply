@@ -1,7 +1,1 @@
-streamlit
-python-docx
-PyPDF2
-pandas
-fpdf
-xlrd
-openpyxl
+
